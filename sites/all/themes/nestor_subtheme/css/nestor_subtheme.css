@@ -1,0 +1,1067 @@
+/**
+ * Nestor v1.0
+ * Drupal Multipurpose Theme
+ * http://nestor.leaftree.pt
+ *
+ * leaftree 2014
+ * @leaftreeInc
+ * http://leaftree.pt
+ */
+
+body {
+    font-family: "soleil",sans-serif;
+    /*font-family: rift, sans-serif; */
+    font-style: normal;
+    font-weight: 400;
+    color: #2d2d2d;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'rift', serif !important;
+    font-weight: 400;
+    color: #2b2b2b;
+    margin: 1.2em 0 1em;
+
+}
+a {
+    color: #2d2d2d;
+}
+.logo {
+    max-width: 100%;
+}
+.view-header {
+    margin: 0px 0 40px 0;
+}
+.view-header .header-view-content {
+    padding-top: 70px;
+}
+.view-header .header-view-content p {
+    color: #2d2d2d;
+}
+.view-header .view {
+    margin-top: 70px;
+}
+.view-header h2 {
+    font-weight: 700 !important;
+    color: #7f1416;
+    font-size: 4.2em;
+    line-height: 35px;
+}
+.view-header h2 span {
+    display: block;
+    line-height: 1em;
+}
+header.stuck #logo-region {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    display: none;
+}
+.header-section {
+    width: 100%;
+}
+.header-section #menu-region {
+    background-color: #bcb2af;
+}
+.navbar {
+    min-height: 75px;
+}
+.navbar-nav>li>a {
+    font-family: 'soleil', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.nestor-main-menu .nav > li > a {
+    padding: 0 20px 0px;
+    line-height: 75px;
+}
+.nestor-main-menu .active > a, .nestor-main-menu .nav .open > a, .nestor-main-menu .nav .open > a:hover, .nestor-main-menu .nav .open > a:focus, .nestor-main-menu .nav > li > a:hover, .nestor-main-menu .nav > li > a:focus, .nestor-main-menu .nav > li:hover > a, .nestor-main-menu .nav > li:focus > a {
+    color: #7f1416 !important;
+}
+.dropdown-toggle {
+    pointer-events: none;
+    cursor: default;
+}
+#logo-region {
+     margin: 20px 0 30px 0;
+ }
+.view-nestor-inspiration-gallery .field-content .colorbox:hover {
+    background: rgba(42,197,238,.8);
+    display: block;
+}
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.vertical-center h6 {
+    position: relative;
+    left: inherit;
+    bottom: inherit;
+}
+.vertical-center ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-overlay a.overlay-link {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 9999;
+}
+.portfolio-image:hover .portfolio-overlay,
+.project-item:hover .portfolio-overlay {
+    opacity: 1 !important;
+}
+.portfolio-overlay, .our-work-1-overlay {
+    background: rgba(181,171,169,.8) !important;
+}
+/**** Style for project single page slider ***/
+.single-page-project-slider .flex-control-paging {
+    margin: 0;
+    bottom: 20px;
+    height: 14px;
+    z-index: 10;
+}
+.magnify {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    z-index: 999;
+    overflow: hidden;
+    width: 38px;
+    height: 38px;
+    background: url('/sites/all/themes/nestor/img/background-images/icon-magnifier.png') no-repeat center center transparent;
+}
+.magnify a {
+    padding-top: 38px;
+    display: block;
+    border-radius: 100px;
+}
+#main-content-region .view-content {
+    margin-bottom: 50px;
+}
+.pagination {
+    margin: 0px 0 40px 0;
+}
+
+.project-single {
+
+}
+.project-single h1 {
+    font-weight: 700;
+    font-size: 7rem;
+    color: #7f1416;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.project-single {
+
+}
+ul.product-info {
+    list-style-type: none;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+ul.product-info li {
+    display: block;
+    overflow: hidden;
+}
+ul.product-info li span,
+ul.product-info li div {
+    float: left;
+}
+ul.product-info li span {
+    font-weight: 700;
+    margin-right: 10px;
+}
+ul.product-info li div {
+    width: auto;
+}
+ul.product-info li div a {
+    color: #2d2d2d;
+}
+/*
+.region.region-hchc-product-category-header {
+  padding: 0;
+    background-color: #7f1416;
+}
+*/
+.product-category-highlight {
+    background-color: #7f1416;
+    color: #fff;
+}
+.product-category-highlight h1 {
+    color: #fff;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 700;
+}
+.product-category-highlight h1 span {
+    color: #fff;
+    display: block;
+    line-height: 80px;
+}
+.product-category-highlight h3 {
+    color: #fff;
+    font-size: 17px;
+    font-family: "soleil",sans-serif !important;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.product-category-highlight p,
+.product-category-highlight p:last-child {
+    color: #fff;
+    padding-bottom: 50px;
+    font-family: "soleil",sans-serif;
+
+}
+.product-category-highlight div.last-child {
+    padding-top: 40px;
+}
+.view-products-category-page .last-child {
+    padding-top: 40px;
+}
+.view-products-category-page h6,
+.view-products-category-page h6 a {
+    color: #bcb2af;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.view-products-category-page h6 span {
+    line-height: 1em;
+}
+.view-products-category-page p,
+.view-products-category-page .description .field-content {
+    color: #2d2d2d;
+    font-size: 17px;
+    font-family: "soleil",sans-serif;
+}
+.view-products-category-page .view-footer {
+    border-style: solid none none none;
+    border-color: #bcb2af;
+    margin-top: 150px;
+}
+.region-iwf-product-category-header {
+   /* margin-bottom: 110px;*/
+}
+.view-header h2 {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.view-products-category-page  .btn-primary {
+    border-color: transparent;
+    color: #7f1416;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "soleil",sans-serif;
+    text-transform: uppercase !important;
+}
+.view-products-category-page  .btn-primary:hover {
+    background-color: #bcb2af;
+    border: none !important;
+}
+
+.view-products-category-page .vertical-center {
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: left;
+    width: 100%;
+    padding-left: 20px;
+}
+.view-products-category-page .vertical-center a,
+.view-products-category-page .vertical-center > .field-content {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'rift', serif !important;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.view-featured-products-by-category .our-work-1-overlay {
+    background: rgba(181,171,169,0) !important;
+    opacity: 1;
+}
+.view-featured-products-by-category .our-work-1-overlay:hover {
+    background: rgba(181,171,169,.8) !important;
+}
+
+.view-featured-products-by-category .our-work-1-overlay  {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+.view-featured-products-by-category .our-work-1-overlay  p {
+    padding-left: 40px;
+    font-size: 30px !important;
+    color: #fff;
+    font-family: 'rift', serif !important;
+    font-weight: 600;
+    line-height: 35px !important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+}
+.block-views h2 {
+    font-size: 30px;
+    font-weight: 700 !important;
+}
+.btn-primary {
+    border-color: transparent !important;
+    color: #7f1416 !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    font-family: "soleil",sans-serif !important;
+    text-transform: uppercase !important;
+    border: none !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #bcb2af !important;/*
+    background-color: #bcb2af !important; */
+    background-color: transparent !important;
+    border: none !important;
+    font-size: 15px !important;
+    font-family: "soleil",sans-serif !important;
+    text-transform: uppercase !important;
+    text-decoration: underline;
+}
+
+/** Footer Style **/
+#footer-columns-region h5 {
+    font-size: 15px !important;
+    font-family: "soleil",sans-serif !important;
+    text-transform: uppercase !important;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+#footer-columns-region p {
+    font-size: 15px !important;
+    font-family: "soleil",sans-serif !important;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+#footer-columns-region ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#footer-columns-region ul li a, #footer-columns-region a {
+    color: #ffffff;
+    font-size: 15px;
+}
+#footer-columns-region ul li a:hover,
+#footer-columns-region a:hover {
+    color: #bcb2af;
+}
+
+#footer-columns-region {
+
+}
+
+#footer-columns-region {
+
+}
+.copyright a {
+    color: #ffffff;
+}
+a {
+    color: #ffffff;
+}
+a:hover {
+    color: #bcb2af;
+}
+#block-views-5f615b653691a23ced6ee5a92a566ccf {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.social-networks-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.social-networks-footer ul li {
+    float: left;
+    padding: 0 15px;
+    border-style: none solid none none;
+    border-color: #ffffff;
+    border-width: 1px;
+    color: #fff;
+    font-family: 'rift', serif !important;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+.social-networks-footer ul li:last-child {
+    border: none;
+}
+.social-networks-footer ul li a {
+    color: #fff;
+    font-family: 'rift', serif !important;
+    font-size: 22px;
+}
+.social-networks-footer ul li a:hover {
+    color: #bcb2af !important;
+}
+.bg-color-grayDark2 {
+    background-color: #2d2d2d;
+    padding-top: 80px;
+}
+.bg-color-grayDark1 {
+    background-color: #2d2d2d;
+    padding-bottom: 100px;
+}
+
+/** Projects Style **/
+.view-nestor-projects  .view-header h2 {
+    font-size: 80px;
+}
+.view-nestor-projects h6.portfolio-title {
+    color: #ffffff;
+    position: relative;
+    margin: 0 0 20px 0;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    font-family: 'rift', serif !important;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.view-nestor-projects .vertical-center {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    padding-left: 20px;
+}
+.view-nestor-projects .vertical-center ul {
+
+}
+.view-nestor-projects .vertical-center ul li {
+    color: #fff;
+    font-size: 17px;
+    font-family: "soleil",sans-serif;
+}
+.view-nestor-projects .vertical-center ul li span {
+    color: #fff;
+    font-weight: 700;
+    font-family: "soleil",sans-serif;
+}
+
+/** Main menu **/
+.nestor-main-menu .nav > li > a {
+    display: inline;
+    border-style: none solid none none;
+    border-width: 1px;
+    padding: 0 50px 0px;
+    font-family: "soleil",sans-serif;
+    font-size: 15px;
+}
+.nestor-main-menu .nav > li > a {
+    display: inline;
+    border-style: none solid none none;
+    border-width: 1px;
+    padding: 0 50px 0px 50px;
+    font-family: "soleil",sans-serif;
+    font-size: 15px;
+}
+.header-2 .nestor-main-menu .nav > li:last-child > a {
+    padding-right: 50px;
+    border: none;
+}
+
+.tb-megamenu {
+    background-color: transparent;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.tb-megamenu .open {
+    background-color: transparent;
+}
+.tb-megamenu .nav > li > a {
+    border-right: 0px none #fff;
+    border-top: 0;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: none;
+    padding: 25px 50px 25px 50px;
+    font-family: "soleil",sans-serif;
+    font-size: 15px;
+    position: relative;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.tb-megamenu .nav > li > a:after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    right: 0;
+    margin-right: 0;
+    width: 20px;
+    bottom: 50%;
+    background: #fff none repeat scroll 0 0;
+    transform: rotate(90deg);
+}
+.tb-megamenu .nav > li:last-child > a:after {
+    position: absolute;
+    content: "";
+    height: 0px;
+    right: 0;
+    margin-right: 0;
+    width: 20px;
+    bottom: 50%;
+    background: none;
+    transform: rotate(90deg);
+}
+.tb-megamenu .nav > li.dropdown.open > .dropdown-toggle {
+    background-color: transparent;
+}
+.tb-megamenu .nav > li > a,
+.tb-megamenu .nav > li > a.animating,
+.tb-megamenu .nav > li > a.open {
+    background-color: #bcb2af;
+    color: #ffffff;
+}
+li.mega-menu-item.animating,
+li.animating {
+    background-color: #bcb2af;
+    color: #ffffff;
+}
+.tb-megamenu .nav > li > a:focus,
+.tb-megamenu .nav > li > a:hover {
+    background-color: #bcb2af;
+    color: #7f1416;
+}
+.mega-dropdown-inner {
+    padding: 20px;
+}
+.tb-megamenu .row-fluid [class*="span"] {
+    display: block;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+}
+.tb-megamenu .dropdown-menu {
+    background-color: #2d2d2d;
+    border-bottom: 0px none transparent;
+}
+.tb-megamenu .dropdown-menu a,
+.tb-megamenu .dropdown-menu h2 {
+    color: #ffffff;
+    line-height: 35px !important;
+    white-space: inherit !important;
+}
+.region-hchc-product-category-header {
+    margin-bottom: 0px;
+}
+.last-child {
+    padding-top: 90px;
+}
+.text-color-light.bg-color-theme .btn-default, .text-color-light .btn-default {
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.highlighted-slider-2 .slider-title {
+    font-size: 7em;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: none;
+    color: #fff;}
+/** About Us Page **/
+#about-us {
+    margin-bottom: 80px;
+}
+#about-us h1 {
+    font-size: 80px;
+    color: #7f1416;
+    font-family: rift, sans-serif !important;
+    line-height: 80px;
+    margin-bottom: 90px;
+    font-weight: 700;
+}
+#about-us h1 span {
+    margin: 0;
+    line-height: 80px;
+}
+#about-us .header {
+    margin-bottom: 80px;
+}
+#about-us .info {
+    margin-top: 0px;
+}
+#about-us h3 {
+    font-size: 30px;
+    color: #7f1416;
+    font-family: rift, sans-serif !important;
+    line-height: 80px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+#about-us .info p {
+    margin-bottom: 70px;
+    color: #2d2d2d;
+    font-size: 17px;
+    font-family: "soleil",sans-serif;
+}
+
+.view-nestor-inspiration-gallery-page-3-columns .view-header h2 {
+    font-weight: 700 !important;
+    color: #7f1416;
+    font-size: 80px;
+    line-height: 1em;
+}
+.view-nestor-inspiration-gallery-page-3-columns .view-header .header-view-content p {
+    color: #777;
+    font-family: "soleil",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/** Project **/
+.project-item .portfolio-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.project-item .portfolio-overlay .vertical-center {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+}
+.project-item .portfolio-overlay .portfolio-title {
+    color: #ffffff;
+    position: relative;
+    margin: 0;
+    left: 0;
+    bottom: 0px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+    font-size: 30px;
+    font-family: rift, sans-serif !important;
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.project-item .portfolio-overlay .portfolio-title a {
+    font-size: 30px;
+    font-family: rift, sans-serif !important;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #ffffff;
+}
+.project-item .portfolio-overlay ul {
+    width: 100%;
+}
+.project-item .portfolio-overlay ul li {
+    display: block;
+    overflow: hidden;
+}
+.project-item .portfolio-overlay ul li div {
+    float: left;
+    color: #fff;
+}
+.project-item .portfolio-overlay ul li span {
+    margin-right: 10px;
+    color: #fff;
+    float: left;
+    font-weight: 700;
+}
+.nav-pills > li > a:hover, .nav-pills > li > a:focus, .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #7f1416 !important;
+}
+.tb-megamenu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus, .animating {
+    background-color: transparent !important;
+}
+/** News **/
+.blog-post span.date {
+    color: #2d2d2d;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "soleil",sans-serif;
+    text-transform: uppercase;
+}
+.blog-post h3.blog-post-title, .blog-post h3.blog-post-title a {
+    color: #2d2d2d;
+    font-family: rift, sans-serif !important;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+}
+.blog-post h3.blog-post-title, .blog-post p {
+    color: #2d2d2d;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: "soleil",sans-serif;
+}
+.blog-post-more a {
+    color: #7f1416;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "soleil",sans-serif;
+    letter-spacing: 2px;
+}
+.blog-post > .row {
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: #bcb2af;
+    padding: 0px 0 50px 0;
+}
+.blog-post > .row:last-child {
+    //border-style: none;
+}
+
+.news-page.view-header h2 {
+    font-size: 80px;
+    color: #7f1416;
+    font-family: rift, sans-serif !important;
+    line-height: 80px;
+    margin-bottom: 90px;
+    font-weight: 700;
+}
+.contacts h3 {
+    margin: 10px 0 10px 0;
+    font-weight: 700;
+    font-size: 30px;
+    color: #7f1416;
+}
+.contacts p {
+    color: #2d2d2d;
+    font-size: 17px;
+}
+.contacts a {
+    color: #2d2d2d !important;
+    font-size: 17px;
+}
+.contacts p a {
+    color: #2d2d2d !important;
+    font-size: 17px;
+}
+#contact-site-form {
+    display: none;
+}
+.contact-page.view-header h2 {
+    font-size: 80px;
+    color: #7f1416;
+    font-family: rift, sans-serif !important;
+    line-height: 80px;
+    font-weight: 700;
+}
+.region-contact-page-form h2 {
+    display: none;
+}
+.region-contact-page-form .form-control {
+    background-color: #2d2d2d;
+    color: #fff;font-size: 15px;
+    font-family: "soleil",sans-serif;
+    text-transform: capitalize;
+    padding: 30px 20px;
+}
+
+.region-contact-page-form #edit-submitted-full-name,
+.region-contact-page-form #edit-submitted-surname {
+    width: 97%;
+}
+.region-contact-page-form #edit-submitted-surname {
+    margin-left: 10px;
+}
+.region-contact-page-form .form-item {
+    margin-top: 0;
+    padding: 0;
+}
+
+.region-contact-page-form .webform-submit.form-submit {
+    border-radius: 50px !important;
+    border-style: solid !important;
+    border-color: #2d2d2d !important;
+    color: #2d2d2d !important;
+    font-size: 15px;
+    font-family: "soleil",sans-serif;
+    font-weight: 700;
+    padding: 15px 50px;
+}
+
+.region-contact-page-form ::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 15px;
+    font-family: "soleil",sans-serif;
+    text-transform: capitalize;
+}
+
+.region-contact-page-form :-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+    font-size: 15px;
+    font-family: "soleil",sans-serif;
+    text-transform: capitalize;
+}
+
+.region-contact-page-form ::-moz-placeholder {  /* Firefox 19+ */
+    color: #fff;
+    font-size: 15px;
+    font-family: "soleil",sans-serif;
+    text-transform: capitalize;
+}
+
+.region-contact-page-form :-ms-input-placeholder {
+    color: #fff;
+    font-size: 15px;
+    font-family: "soleil",sans-serif;
+    text-transform: capitalize;
+}
+#main-content-region {
+    margin-bottom: 70px !important;
+    margin-top: 70px;
+}
+.tb-megamenu .dropdown-menu a {
+    line-height: 35px !important;
+    white-space: inherit !important;
+}
+
+.tb-megamenu .btn-navbar {
+    width: 32px;
+    height: 32px;
+    background: url('/sites/all/themes/nestor/img/background-images/menu.png') no-repeat center center transparent;
+    outline: none;
+}
+.tb-megamenu .btn-navbar i { display: none; }
+
+.view-other-products .project-item .our-work-1-overlay p,
+.view-other-projects .project-item .our-work-1-overlay p {
+    top: 40%;
+    width: 60%;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'rift', serif !important;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.view-other-products,
+.view-other-projects {
+    padding-top: 70px;
+}
+.view-footer .view-other-projects .view-header h2 {
+    font-size: 30px;
+}
+.view-nestor-projects .view-footer {
+    border-style: solid none none none;
+    border-color: #bcb2af;
+    margin-top: 150px;
+}
+
+#edit-submitted-attached-file-upload-button {
+    display: none;
+}
+.contact-page.view-header {
+    margin-top: 70px;
+}
+
+.page-projects-category #content-12-region {
+    display: none;
+}
+.portfolio-item {
+    margin-top: 70px;
+}
+.sub-menu-margin-bottom {
+    margin-bottom: 20px;
+}
+.tb-megamenu-submenu {
+    padding: 0 20px;
+}
+#grid .mix {
+    display: block;
+    opacity: 1;
+}
+.field.field-name-field-projects-product-tags .field-items .field-item:after {
+    content: ", ";
+}
+.field.field-name-field-projects-product-tags .field-items .field-item:last-child:after {
+    content: "";
+}
+
+.views-exposed-form .views-exposed-widget {
+    float: left;
+    padding: .5em 1em 0 0;
+    width: 100%;
+}
+.views-exposed-form label {
+    font-weight: bold;
+    float: left;
+    margin-right: 10px;
+}
+.views-exposed-form .views-exposed-widget .views-widget {
+    float: left;
+}
+
+.views-exposed-form .form-item, .views-exposed-form .form-submit {
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+    margin-right: 10px;
+}
+
+.portfolio-image .portfolio-overlay a img {
+    display: none;
+}
+.portfolio-image .portfolio-overlay a {
+    display: block;
+    height: 100%;
+    z-index: 100;
+    position: relative;
+}
+.portfolio-image .portfolio-overlay .portfolio-title {
+    color: #f0f0f0;
+    position: absolute;
+    margin: 0;
+    left: 25px;
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'rift', serif !important;
+    font-weight: 600;
+    line-height: 30px;
+    bottom: 40%;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.view-furniture-gallery-page-3-columns .view-header h2 {
+    font-weight: 700 !important;
+    color: #7f1416;
+    font-size: 80px;
+    line-height: 80px;
+}
+.tb-megamenu .nav > li > a:hover {
+    color: #7f1416;
+}
+.see-product-range {
+    color: #bcb2af;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: #bcb2af;
+    padding: 15px 20px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.see-product-range:hover {
+    color: #7f1416;
+    border-color: #7f1416;
+}
+
+.view-nestor-projects .view-header .header-view-content {
+    padding-top: 0px;
+}
+.view-nestor-projects .view-header .view {
+    margin-top: 5px;
+}
+
+.atlwdg-trigger.atlwdg-SUBTLE {
+    bottom: 56px !important;
+    z-index: 999999;
+}
+
+@media (min-width: 1200px) {
+    .stuck .nestor-main-menu .nav > li > a {
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 979px) {
+    .tb-megamenu {
+        padding: 10px 0 5px 0;
+    }
+}
+@media (max-width: 768px) {
+    .view-header .header-view-content {
+        padding-top: 0px;
+    }
+    .product-category-highlight div.last-child {
+        padding-top: 0;
+    }
+    .view-products-category-page .last-child {
+        padding-top: 0px;
+    }
+    .last-child {
+        padding-top: 0;
+    }
+
+    #about-us .header img {
+        margin-bottom: 80px;
+    }
+
+    /** Reset form field width **/
+    .region-contact-page-form #edit-submitted-full-name,
+    .region-contact-page-form #edit-submitted-surname {
+        width: 100%;
+    }
+    .region-contact-page-form #edit-submitted-surname {
+        margin-left: 0px;
+    }
+
+    .region-contact-page-address-and-map #block-block-46 {
+        display: none;
+    }
+    .highlighted-slider-2 .slider-title {
+        font-size: 3em;
+        letter-spacing: 10px;
+    }
+    .highlighted-slider-2 .highlighted-slider-2-content {
+        margin-top: -50px !important;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .is-table-row {
+        display: table;
+    }
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+}
+
+.section-outclass h3 { text-align: center; font-size: 50px; margin: 30px 0 20px 0; }
